@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/login">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            tools:context=".MainActivity">
+
+
+        <ImageView android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:background="@drawable/logoproximo"/>
+
+
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:id="@+id/email"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/input"
+                android:textColor="@color/colorBlack"
+                android:hint="Email"/>
+
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:id="@+id/password"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/input"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPassword"
+                android:hint="Contraseña"/>
+
+        <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Continuar"
+                android:id="@+id/btnLogin"
+                android:layout_marginVertical="5dp"
+                android:textColor="@color/colorBlack"
+                android:background="@drawable/input"
+                android:backgroundTint="@color/colorOrange"/>
+
+    </LinearLayout>
+</LinearLayout>

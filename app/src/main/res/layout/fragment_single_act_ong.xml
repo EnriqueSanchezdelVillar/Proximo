@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/complet_activity_Ong"
+>
+    <LinearLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_margin="10dp"
+            android:id="@+id/activity_complet"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+    >
+
+        <TextView
+                android:id="@+id/titleActivity_o"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:text=" "
+                tools:text ="KELOEK"/>
+
+        <TextView
+                android:id="@+id/date_activity_o"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:text=" "
+                tools:text ="KELOEK"
+        />
+        <TextView
+                android:id="@+id/ubication_activity_o"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:text=" "
+                tools:text ="KELOEK"
+        />
+
+        <TextView
+                android:id="@+id/description_activity_o"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:text=" "
+                tools:text ="KELOEK"
+        />
+
+        <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/btnactivitySeeAc"
+                android:backgroundTint="@color/colorOrange"
+                android:text="Editar"
+                android:background="@drawable/input"
+                android:textColor="@color/colorBlack"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+
+
+        />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Perfil " android:id="@+id/profile_v" android:icon="@drawable/profile1"/>
+    <item android:title="Actividades" android:id="@+id/activities_v" android:icon="@drawable/activity"/>
+    <item android:title="Notificaciones" android:id="@+id/notifications_v" android:icon="@drawable/notification1"/>
+
+
+</menu>

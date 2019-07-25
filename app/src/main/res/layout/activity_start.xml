@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/intro"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logoproximo"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="match_parent">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginTop="75dp"
+                android:id="@+id/btnRegister"
+                android:backgroundTint="@color/colorOrange"
+                android:text="Registro"
+                android:background="@drawable/input"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center"
+                android:paddingBottom="30dp"
+                android:textSize="20sp"
+
+        />
+
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:id="@+id/btnLogin"
+                android:backgroundTint="@color/colorOrange"
+                android:text="Login"
+                android:background="@drawable/input"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>

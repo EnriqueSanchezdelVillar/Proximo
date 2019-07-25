@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Volunteer.VolunProfileFragment"
+             android:id="@+id/fragment_profile_v"
+             android:orientation="vertical"
+>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="match_parent"
+    >
+
+
+        <TextView
+                android:id="@+id/tNameVol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:gravity="center"
+                android:text=" "
+                android:clickable="true"
+                tools:text ="KELOEK"/>
+
+        <TextView
+                android:id="@+id/temailVol"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:text=" "
+                tools:text ="KELOEK"
+        />
+
+        <TextView
+                android:id="@+id/taddresVol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:text=" "
+                tools:text ="KELOEK"
+        />
+
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/logoproximo"
+                   android:layout_gravity="center"
+        />
+
+        <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:background="@color/colorOrange"
+                android:textColor="@color/colorBlack"
+                android:text=" Busca un voluntariado cerca de ti"
+        />
+
+    </LinearLayout>
+
+
+</FrameLayout>
